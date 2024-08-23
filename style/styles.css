@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:500px){
+    .container{
+        width: 100vw;
+        height: auto;
+    }
+
+    .nav {
+        height: 10vh;
+        background-color: antiquewhite;
+        text-align: center;
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    .tko {
+        color: orange;
+    }
+
+    .showcase {
+        width: 100vw;
+        height: 30vh;
+        background-image: url('../pics/opening.jpg');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 20px;
+    }
+
+    .showcase p{
+        font-size: 15px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        background-color: orange;
+        font-size: 17px;
+        color: white;
+        border-radius: 5%;
+        border: none
+    }
+
+    .shirt-area {
+        width: 90vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin: auto       
+    }
+
+    .shirt{
+        flex: 1;      
+        width: 90vw;
+        height: 40vh;
+        margin: auto;
+        background-color: aqua;
+        margin-top: 20px;
+        position: relative;
+    }
+
+    .shirt-one{
+        background-image: url("../pics/shirt1.jpg");
+        background-size: cover;
+    }
+
+    .shirt-two{
+        background-image: url('../pics/shirt2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .shirt-three{
+        background-image: url('../pics/shirt0.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    footer{
+        padding-top: 25px;
+        font-size: 25px;
+        color: orange;
+        text-align: center;
+        height: 10vh;
+    }
+
+    .price{
+        position: absolute;
+        top: 80%;
+        left: 30%
+    }
+
+    
+
+}
