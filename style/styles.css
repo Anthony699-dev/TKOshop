@@ -4,16 +4,97 @@
     padding: 0px;
 }
 
+.container{
+    height: 90vh;
+    width: 100vw;
+}
 
+.nav{
+    width: 100vw;
+    height: 10vh;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
 
+.tko{
+    color: orange;
+}
 
+.showcase{
+    background-image: url('../pics/opening.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
 
+.showcase h1{
+    font-size: 75px;
+    color: white;
+}
 
+.showcase p{
+    font-size: 20px;
+}
 
+.btn{
+    background-color: orange;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
 
+.shirt-area{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
 
+.shirt-one, .shirt-two, .shirt-three{
+    width: 40vw;
+    height: 50vh;
+    margin: 10px;
+}
 
+.shirt-one{
+    background-image: url('../pics/shirt0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.shirt-two{
+    background-image: url('../pics/shirt1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shirt-three{
+    background-image: url('../pics/shirt2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer{
+    height: 10vh;
+    width: 100vw;
+    color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
 
 @media (max-width:500px){
     .container{
@@ -43,7 +124,10 @@
         justify-content: center;
         align-items: center;
         color: white;
-        font-size: 20px;
+    }
+
+    .showcase h1{
+        font-size: 40px;
     }
 
     .showcase p{
